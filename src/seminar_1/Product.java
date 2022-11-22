@@ -40,6 +40,6 @@ public class Product {
 
     @Override
     public String toString(){
-        return String.format("%s %.2f\n", this.name, this.coast);
+        return String.format("%s %.2f", this.name, this.coast);
     }
 }
