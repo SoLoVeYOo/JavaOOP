@@ -1,16 +1,4 @@
-package seminar_1; /**
- * FileName: Product
- * Author:   Dmitrii
- * Date:     22.11.2022 20:43
- * Description: 1
- */
-
-/**
- * FileName: Product
- * Author:   Dmitrii
- * Date:     22.11.2022 20:43
- * Description: 1
- */
+package seminar_1;
 public class Product {
     private String name;
     private Double coast;

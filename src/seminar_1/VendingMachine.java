@@ -1,19 +1,8 @@
-package seminar_1; /**
- * FileName: VendingMachine
- * Author:   Dmitrii
- * Date:     22.11.2022 21:52
- * Description: 1
- */
+package seminar_1;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * FileName: VendingMachine
- * Author:   Dmitrii
- * Date:     22.11.2022 21:52
- * Description: 1
- */
 public class VendingMachine {
     private List<Product> products; // = new ArrayList<Product>();
     private final static List<Product> newProduct = new ArrayList<>();

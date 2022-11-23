@@ -1,21 +1,7 @@
 package seminar_1;
-/**
- * FileName: Programm
- * Author:   Dmitrii
- * Date:     22.11.2022 20:49
- * Description: 1
- */
-
 
 import java.util.ArrayList;
 import java.util.List;
-
-/**
- * FileName: Programm
- * Author:   Dmitrii
- * Date:     22.11.2022 20:49
- * Description: 1
- */
 public class Programm {
     public static void main(String[] args) {
         List<Product> prods = new ArrayList<>();
