@@ -5,7 +5,7 @@ public class PointMethod {
         return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
     }
 
-    public static void main(String[] args) {
+    public static   void main(String[] args) {
 
         int ax = 0;
         int ay = 0;
