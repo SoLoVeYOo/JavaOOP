@@ -1,6 +1,6 @@
 package hw_seminar_2;
 
-public class Duck extends Animal implements SpeakAble, FlyAble, RunAble {
+public class Duck extends Animal implements SpeakAble, FlyAble, RunAble, SwimAble {
     public Duck(String name, String breed, String colour, Integer countLegs, Integer age) {
         super(name, breed, colour, countLegs, age);
     }
@@ -17,5 +17,10 @@ public class Duck extends Animal implements SpeakAble, FlyAble, RunAble {
     @Override
     public String speak() {
         return "kra";
+    }
+
+    @Override
+    public String swim() {
+        return "15 km/h";
     }
 }
