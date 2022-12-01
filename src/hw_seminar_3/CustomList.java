@@ -10,22 +10,19 @@ public class CustomList<E> implements Iterable<Node> {
         first = last = null;
     }
 
-    public boolean isEmpty() {
-        return first == null;
-    }
 
-    public void add(E data) {
-        Node tempo = new Node();
-        tempo.setData(data);
-        tempo.setNext(null);
+    public void add(E elem) {
+        Node temp = new Node();
+        temp.setData(elem);
+        temp.setNext(null);
 
         if (first == null) {
-            tempo.setPrev(null);
-            first = last = tempo;
+            temp.setPrev(null);
+            first = last = temp;
         } else {
-            tempo.setPrev(last);
-            last.setNext(tempo);
-            last = tempo;
+            temp.setPrev(last);
+            last.setNext(temp);
+            last = temp;
         }
     }
 

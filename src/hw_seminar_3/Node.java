@@ -3,7 +3,7 @@ package hw_seminar_3;
 public class Node<E> {
     private Node next;
     private Node prev;
-    private E data;
+    private E elem;
 
     public Node getNext() {
         return next;
@@ -14,15 +14,11 @@ public class Node<E> {
     }
 
     public E getData() {
-        return data;
+        return elem;
     }
 
     public void setData(E data) {
-        this.data = data;
-    }
-
-    public Node getPrev() {
-        return prev;
+        this.elem = data;
     }
 
     public void setPrev(Node prev) {

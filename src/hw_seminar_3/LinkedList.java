@@ -16,8 +16,8 @@ public class LinkedList<E> implements Iterator<Node> {
 
     @Override
     public Node next() {
-        Node tempo = current;
+        Node temp = current;
         current = current.getNext();
-        return tempo;
+        return temp;
     }
 }
