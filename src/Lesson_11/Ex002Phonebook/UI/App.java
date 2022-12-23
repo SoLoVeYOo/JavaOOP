@@ -2,9 +2,9 @@ package Lesson_11.Ex002Phonebook.UI;
 
 import java.util.Scanner;
 
-import Ex002Phonebook.Config;
-import Ex002Phonebook.Core.MVP.Presenter;
-import Ex002Phonebook.Core.MVP.View;
+import Lesson_11.Ex002Phonebook.Config;
+import Lesson_11.Ex002Phonebook.Core.MVP.Presenter;
+import Lesson_11.Ex002Phonebook.Core.MVP.View;
 
 public class App {
     public static void ButtonClick() {
